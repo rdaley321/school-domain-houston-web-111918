@@ -18,6 +18,6 @@ class School
   end
   
   def sort
-    roster = Hash[roster.sort_by{|key,val| key}]
+    Hash[roster.sort_by{|key,val| key}]
   end
 end
