@@ -18,8 +18,8 @@ class School
   end
   
   def sort
-    roster.values.each! do |arr|
-      arr.sort
+    roster.values.each do |arr|
+      arr.sort!
     end
   end
 end
