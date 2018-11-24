@@ -18,6 +18,6 @@ class School
   end
   
   def sort
-    roster.keys.sort!{|a,b| a<=>b
+    roster.keys.sort!{|a,b| a<=>b}
   end
 end
