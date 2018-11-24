@@ -18,6 +18,6 @@ class School
   end
   
   def sort
-    roster.sort.flatten
+    roster.sort.flatten(2)
   end
 end
