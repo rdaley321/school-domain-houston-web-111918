@@ -21,6 +21,7 @@ class School
     roster.values.each do |arr|
       arr.sort!
     end
+    roster
   end
 end
 
