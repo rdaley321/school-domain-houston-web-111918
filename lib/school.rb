@@ -18,7 +18,7 @@ class School
   end
   
   def sort
-    roster.values.sort!{|a,b| a<=>b}
+    roster.values.sort{|a,b| a<=>b}
     roster
   end
 end
