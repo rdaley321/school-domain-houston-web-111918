@@ -18,7 +18,9 @@ class School
   end
   
   def sort
-    roster.values.sort!{|a,b| a<=>b}
+    sorted_roster = roster.values.each do |arr|
+      arr.sort
+    end
   end
 end
 
