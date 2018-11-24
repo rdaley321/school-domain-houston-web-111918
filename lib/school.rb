@@ -18,7 +18,7 @@ class School
   end
   
   def sort
-    sorted_roster = roster.values.each do |arr|
+    roster.values.each do |arr|
       arr.sort
     end
   end
