@@ -18,6 +18,6 @@ class School
   end
   
   def sort
-    roster.sort{|key,value| value}
+    roster.sort_by{|k,v| v}.to_h
   end
 end
