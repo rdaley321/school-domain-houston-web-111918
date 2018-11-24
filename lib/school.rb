@@ -18,6 +18,6 @@ class School
   end
   
   def sort
-    roster.sort_by{|k,v| v[0][0]}.to_h
+    roster.sort_by{|k,v| v.flatten}.to_h
   end
 end
